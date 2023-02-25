@@ -80,6 +80,7 @@ function restOfTheTime() {
   }, 1000);
 }
 
+// console.log('asd')
 function updeteTimerText({ days, hours, minutes, seconds }) {
     refs.timer.textContent = `${days}:${hours}:${minutes}:${seconds}`
 }
